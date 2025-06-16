@@ -115,9 +115,52 @@ pip install numpy matplotlib tkinter
 
 ### ✅ User Experience
 
-- Designed with **large fonts** for better readability by all age groups.
 - **Tabbed interface** for intuitive navigation.
 - Real-time **calculation progress** displayed.
 - Friendly and informative **error prompts**.
 
 ---
+
+---
+
+## 📦 `requirements.txt`
+
+```text
+numpy>=1.19.0
+matplotlib>=3.3.0
+```
+
+---
+
+## 🧪 Example Usage
+
+
+# 1. Select "Basic Parameters" tab
+# 2. Enter motor specifications (default: 15kW motor)
+# 3. Choose "Material and Slot Type" tab
+# 4. Select appropriate steel material and slot type
+# 5. Click "Start Calculation" button
+# 6. View results in "Calculation Results" tab
+# 7. Export results using "Export Results" button
+```
+
+---
+
+## 🔁 Calculation Flow
+
+The program follows a systematic calculation approach:
+
+1. Basic parameter validation and computation  
+2. Winding parameter analysis  
+3. Geometric parameter calculation  
+4. Permanent magnet parameter determination  
+5. No-load magnetic circuit iterative solution  
+6. Impedance parameter calculation  
+7. Performance parameter analysis  
+8. Material weight estimation  
+9. Loss calculation  
+10. Starting characteristic evaluation  
+11. Actual performance parameter computation  
+
+This comprehensive approach ensures accurate and reliable motor design calculations suitable for professional engineering applications.
+
