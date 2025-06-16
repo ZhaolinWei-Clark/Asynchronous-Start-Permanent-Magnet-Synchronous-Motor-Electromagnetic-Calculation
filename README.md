@@ -1,0 +1,1 @@
+# Asynchronous-Start-Permanent-Magnet-Synchronous-Motor-Electromagnetic-Calculation
