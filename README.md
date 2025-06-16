@@ -135,16 +135,16 @@ matplotlib>=3.3.0
 ## 🧪 Example Usage
 
 
-# 1. Select "Basic Parameters" tab
-# 2. Enter motor specifications (default: 15kW motor)
-# 3. Choose "Material and Slot Type" tab
-# 4. Select appropriate steel material and slot type
-# 5. Click "Start Calculation" button
-# 6. View results in "Calculation Results" tab
-# 7. Export results using "Export Results" button
-```
+### 1. Select "Basic Parameters" tab
+### 2. Enter motor specifications (default: 15kW motor)
+### 3. Choose "Material and Slot Type" tab
+### 4. Select appropriate steel material and slot type
+### 5. Click "Start Calculation" button
+### 6. View results in "Calculation Results" tab
+### 7. Export results using "Export Results" button
 
----
+
+
 
 ## 🔁 Calculation Flow
 
