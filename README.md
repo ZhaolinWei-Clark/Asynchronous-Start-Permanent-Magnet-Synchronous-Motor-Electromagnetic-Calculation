@@ -30,3 +30,94 @@ A comprehensive Python GUI application for calculating electromagnetic parameter
 ### Dependencies
 ```bash
 pip install numpy matplotlib tkinter
+
+## 🧭 User Guide
+
+### 🔄 Basic Operation Flow
+
+1. **Start Program**  
+   Run the program with:
+   ```bash
+   python ai03.py
+   ```
+   The program will launch in full-screen mode.
+
+2. **Input Parameters**  
+   - Enter motor design parameters via the various tabs.  
+   - Select the appropriate **silicon steel material** and **slot type**.  
+   - All parameters have default values for quick calculation.
+
+3. **Execute Calculation**  
+   - Click **Start Calculation** at the top of the window.  
+   - The program performs a complete electromagnetic simulation.  
+   - The calculation process is visible in the console window.
+
+4. **View Results**  
+   - Navigate to the **Calculation Results** tab for detailed data.  
+   - Switch to the **Chart Display** tab to view characteristic curves.  
+   - All outputs are based on actual computations.
+
+5. **Export Results**  
+   - Click the **Export Results** button.  
+   - Choose a save location and filename.  
+   - Results will be saved as a `.txt` file.
+
+---
+
+## ⚙️ Parameter Description
+
+### 📌 Basic Parameters
+
+| Parameter             | Description                                      |
+|-----------------------|--------------------------------------------------|
+| **Rated Power PN (kW)** | Rated output power of the motor                  |
+| **Rated Voltage UN (V)** | Operating voltage under rated conditions         |
+| **Phase Number m**     | Number of motor phases (typically 3)             |
+| **Frequency f (Hz)**   | Supply frequency                                 |
+| **Pole Pairs p**       | Number of magnetic pole pairs                    |
+
+### 🧲 Material Selection
+
+| Material     | Features                                                                 |
+|--------------|--------------------------------------------------------------------------|
+| **DR510-50** | High permeability, low loss — suitable for high-efficiency motors        |
+| **DR420-50** | Ultra-low loss — ideal for energy-saving designs                         |
+| **DR490-50** | High magnetic flux density — suited for compact, high-power motors       |
+| **DR550-50** | High saturation flux — suitable for heavy-duty industrial applications   |
+| **DW315-50** | Standard type — versatile and cost-effective                             |
+
+### 🪛 Slot Type Selection
+
+| Slot Type              | Advantages                                                |
+|------------------------|-----------------------------------------------------------|
+| **Pear-shaped Slot**      | High starting torque — good for heavy-load startups       |
+| **Semi-pear-shaped Slot** | Balanced start/run performance                           |
+| **Circular Slot**         | Easy to manufacture and cost-effective                   |
+| **Beveled Circular Slot** | Low noise and minimal vibration                          |
+
+---
+
+## 🧪 Technical Features
+
+### ✅ Calculation Accuracy
+
+- Uses real **silicon steel B-H curve data** (37 data points).
+- Slot leakage reactance is calculated using **original Fortran-based formulas**.
+- Magnetic circuit solved iteratively to ensure **accurate convergence**.
+- Includes effects of **temperature**, **saturation**, **skin effect**, etc.
+
+### ✅ Code Quality
+
+- Adheres to **PEP 8** standards.
+- Modular code with separation of logic and interface.
+- Comprehensive comments and **docstrings** throughout.
+- Robust **exception handling** and **error messaging**.
+
+### ✅ User Experience
+
+- Designed with **large fonts** for better readability by all age groups.
+- **Tabbed interface** for intuitive navigation.
+- Real-time **calculation progress** displayed.
+- Friendly and informative **error prompts**.
+
+---
