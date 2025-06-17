@@ -38,7 +38,7 @@ pip install numpy matplotlib tkinter
 1. **Start Program**  
    Run the program with:
    ```bash
-   python ai03.py
+   python xxx.py
    ```
    The program will launch in full-screen mode.
 
